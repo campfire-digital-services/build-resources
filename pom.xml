@@ -14,16 +14,14 @@ FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along with
 build-resources. If not, see <http://www.gnu.org/licenses />.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>au.com.permeance</groupId>
         <artifactId>permeance-parent</artifactId>
-        <version>0.2</version>
+        <version>0.3</version>
     </parent>
 
     <groupId>au.com.permeance</groupId>
@@ -72,7 +70,7 @@ build-resources. If not, see <http://www.gnu.org/licenses />.
         <connection>scm:git:git@github.com:permeance/build-resources.git</connection>
         <developerConnection>scm:git:git@github.com:permeance/build-resources.git</developerConnection>
         <url>https://github.com/permeance/build-resources</url>
-        <tag>HEAD</tag>
+        <tag>build-resources-0.1</tag>
     </scm>
 
     <issueManagement>
