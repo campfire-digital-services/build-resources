@@ -19,9 +19,9 @@ build-resources. If not, see <http://www.gnu.org/licenses />.
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>au.com.permeance</groupId>
-        <artifactId>permeance-parent</artifactId>
-        <version>0.3</version>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
     </parent>
 
     <groupId>au.com.permeance</groupId>
@@ -87,4 +87,5 @@ build-resources. If not, see <http://www.gnu.org/licenses />.
             </notifier>
         </notifiers>
     </ciManagement>
+
 </project>
