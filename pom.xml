@@ -23,7 +23,7 @@ build-resources. If not, see <http://www.gnu.org/licenses />.
     <parent>
         <groupId>au.com.permeance</groupId>
         <artifactId>permeance-parent</artifactId>
-        <version>0.3-SNAPSHOT</version>
+        <version>0.2</version>
     </parent>
 
     <groupId>au.com.permeance</groupId>
