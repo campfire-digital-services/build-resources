@@ -26,7 +26,7 @@ build-resources. If not, see <http://www.gnu.org/licenses />.
 
     <groupId>au.com.permeance</groupId>
     <artifactId>build-resources</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>jar</packaging>
 
     <name>build-resources</name>
