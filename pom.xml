@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is part of build-resources.
+
+build-resources is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+build-resources is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+build-resources. If not, see <http://www.gnu.org/licenses />.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>au.com.permeance</groupId>
+        <artifactId>permeance-parent</artifactId>
+        <version>0.3-SNAPSHOT</version>
+    </parent>
+
+    <groupId>au.com.permeance</groupId>
+    <artifactId>build-resources</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>build-resources</name>
+    <description>A set of build resources for use by permeance-parent</description>
+    <url>http://permeance.github.com/build-resources/index.html</url>
+    <inceptionYear>2012</inceptionYear>
+
+    <organization>
+        <name>Permeance Technologies</name>
+        <url>http://www.permeance.com.au</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License</name>
+            <url>http://www.gnu.org/licenses/lgpl-3.0-standalone.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>martinlau</id>
+            <name>Martin Lau</name>
+            <email>martin.lau@permeance.com.au</email>
+            <url>http://hum.ph</url>
+            <organization>Permeance Technologies</organization>
+            <organizationUrl>http://www.permeance.com.au</organizationUrl>
+            <roles>
+                <role>Project creator</role>
+            </roles>
+            <timezone>+10</timezone>
+        </developer>
+    </developers>
+
+    <prerequisites>
+        <maven>3.0</maven>
+    </prerequisites>
+
+    <scm>
+        <connection>scm:git:git@github.com:permeance/build-resources.git</connection>
+        <developerConnection>scm:git:git@github.com:permeance/build-resources.git</developerConnection>
+        <url>https://github.com/permeance/build-resources</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <url>https://github.com/permeance/build-resources/issues</url>
+        <system>github</system>
+    </issueManagement>
+
+    <ciManagement>
+        <system>jenkins</system>
+        <url>https://buildhive.cloudbees.com/job/permeance/job/build-resources/</url>
+        <notifiers>
+            <notifier>
+                <address>martin.lau@permeance.com.au</address>
+            </notifier>
+        </notifiers>
+    </ciManagement>
+</project>
