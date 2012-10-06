@@ -70,7 +70,7 @@ build-resources. If not, see <http://www.gnu.org/licenses />.
         <connection>scm:git:git@github.com:permeance/build-resources.git</connection>
         <developerConnection>scm:git:git@github.com:permeance/build-resources.git</developerConnection>
         <url>https://github.com/permeance/build-resources</url>
-        <tag>build-resources-0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>
