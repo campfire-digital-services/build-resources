@@ -25,7 +25,11 @@ build-resources. If not, see <http://www.gnu.org/licenses />.
             <item href="http://permeance.github.com/permeance-parent" name="permeance-parent"/>
             <item href="index.html" name="build-resources"/>
         </breadcrumbs>
-        <menu title="Related">
+        <menu name="Check Configurations">
+            <item href="./checkstyle.html" name="Checkstyle Configuration"/>
+            <item href="./pmd.html" name="PMD Configuration"/>
+        </menu>
+        <menu name="Used By">
             <item href="http://permeance.github.com/permeance-parent" name="permeance-parent"/>
         </menu>
         <menu ref="reports"/>
