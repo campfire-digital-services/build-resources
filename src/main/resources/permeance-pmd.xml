@@ -22,7 +22,17 @@ build-resources. If not, see <http://www.gnu.org/licenses/>.
 
     <description>A custom rule-set for semi-sane and readable code standards.</description>
 
-    <rule ref="rulesets/basic.xml"/>
+    <rule ref="rulesets/basic.xml">
+        <!-- Nope - let's allow documented empty catch blocks -->
+        <exclude name="EmptyCatchBlock" />
+    </rule>
+
+    <rule ref="rulesets/basic.xml/EmptyCatchBlock">
+        <properties>
+            <!-- Allow documented empty catch blocks -->
+            <property name="allowCommentedBlocks" value="true"/>
+        </properties>
+    </rule>
 
     <rule ref="rulesets/braces.xml"/>
 
@@ -54,7 +64,6 @@ build-resources. If not, see <http://www.gnu.org/licenses/>.
 
     <rule ref="rulesets/naming.xml">
         <exclude name="LongVariable"/>
-        <exclude name="PackageCase"/>
     </rule>
 
     <rule ref="rulesets/naming.xml/LongVariable">
