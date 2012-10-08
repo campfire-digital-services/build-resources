@@ -39,6 +39,9 @@ Welcome to ${project.name}.
 
     * IDE formatter configurations which match the checkstyle configuration.
 
+    * Confirm that rules which claim to use the "default configuration" actually support configuration (if not, don't
+      say so)
+
 * License
 
     This project is licensed under the
