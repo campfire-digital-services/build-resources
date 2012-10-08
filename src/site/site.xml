@@ -22,8 +22,12 @@ build-resources. If not, see <http://www.gnu.org/licenses />.
     <body>
         <breadcrumbs>
             <item href="http://www.permeance.com.au" name="Permeance Technologies"/>
+            <item href="http://permeance.github.com/permeance-parent" name="permeance-parent"/>
             <item href="index.html" name="build-resources"/>
         </breadcrumbs>
+        <menu title="Related">
+            <item href="http://permeance.github.com/permeance-parent" name="permeance-parent"/>
+        </menu>
         <menu ref="reports"/>
     </body>
 
