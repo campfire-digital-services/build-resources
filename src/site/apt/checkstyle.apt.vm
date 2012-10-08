@@ -1,0 +1,33 @@
+~~ This file is part of build-resources.
+~~
+~~ build-resources is free software: you can redistribute it and/or
+~~ modify it under the terms of the GNU General Public License as published by the
+~~ Free Software Foundation, either version 3 of the License, or (at your option)
+~~ any later version.
+~~
+~~ build-resources is distributed in the hope that it will be useful,
+~~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+~~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+~~ more details.
+~~
+~~ You should have received a copy of the GNU General Public License along with
+~~ build-resources. If not, see <http://www.gnu.org/licenses/>.
+
+~~ NOTE: For help with the syntax of this file, see: http://maven.apache.org/doxia/references/apt-format.html
+
+    ------
+    Checkstyle Configuration
+    ------
+    Martin Lau [martin.lau@permeance.com.au]
+    ------
+    2012-10-08
+    ------
+
+Introduction
+
+    This project contains a customised {{{http://checkstyle.sourceforge.net}Checkstyle}} configuration which attempts
+    to walk the difficult line between "overly paranoid and won't even pass normal code" and "how the hell does this
+    even work".
+
+    The configuration discussed below is open to debate and discussion. If there is anything you feel particularly
+    strongly about, {{{${project.issueManagement.url}}open a ticket}}.
