@@ -31,6 +31,25 @@ Introduction
     The configuration discussed below is open to debate and discussion. If there is anything you feel particularly
     strongly about, {{{${project.issueManagement.url}}open a ticket}}.
 
+* Disabling checks
+
+    Checks can be disabled by using PMD's standard suppression mechanism leveraging java's @Override annotation:
+
+-------
+@SuppressWarnings("PMD.EmptyCatchBlock")
+public boolean myMethod() {
+    try {
+        return doSomething();
+    }
+    catch (Exception e) {};
+    finally {
+        return false;
+    }
+}
+-------
+
+    However, be warned that every time a check is ignored God kills a kitten.
+
 * Included rulesets
 
     This configuration includes the following PMD rulesets and configurations:
