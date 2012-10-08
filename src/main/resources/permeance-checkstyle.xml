@@ -35,6 +35,7 @@ build-resources. If not, see <http://www.gnu.org/licenses/>.
         <module name="MissingDeprecated"/>
         <module name="MissingOverride"/>
         <module name="PackageAnnotation"/>
+        <module name="SuppressWarnings" />
     </module>
 
     <!-- See http://checkstyle.sourceforge.net/config_blocks.html -->
@@ -87,7 +88,7 @@ build-resources. If not, see <http://www.gnu.org/licenses/>.
         </module>
         <module name="IllegalInstantiation">
             <!-- TODO Add more as they're found -->
-            <property name="classes" value="java.lang.Boolean"/>
+            <property name="classes" value="java.lang.Boolean, java.lang.String"/>
         </module>
         <module name="InnerAssignment"/>
         <module name="MagicNumber">
@@ -108,10 +109,7 @@ build-resources. If not, see <http://www.gnu.org/licenses/>.
             <!-- Give a little more leeway beyond the default 1 -->
             <property name="max" value="2"/>
         </module>
-        <module name="NestedTryDepth">
-            <!-- Give a little more leeway beyond the default 1 -->
-            <property name="max" value="2"/>
-        </module>
+        <module name="NestedTryDepth"/>
         <module name="NoFinalizer"/>
         <module name="SuperClone"/>
         <module name="IllegalCatch"/>
@@ -145,7 +143,7 @@ build-resources. If not, see <http://www.gnu.org/licenses/>.
         <module name="RedundantImport"/>
         <module name="UnusedImports"/>
         <module name="ImportOrder">
-            <property name="groups" value="au.com,com,java,javax,permeance"/>
+            <property name="groups" value="au.com.permeance, permeance, com, java, javax"/>
             <property name="option" value="bottom"/>
             <property name="separated" value="true"/>
         </module>
