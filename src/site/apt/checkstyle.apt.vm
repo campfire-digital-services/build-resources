@@ -60,28 +60,27 @@ public boolean myMethod() {
 
     The following sub-modules are used:
 
-    * {{{http://checkstyle.sourceforge.net/config_annotation.html#AnnotationUseStyle}AnnotationUseStyle}} with the
-      default configuration.
-    * {{{http://checkstyle.sourceforge.net/config_annotation.html#MissingDeprecated}MissingDeprectated}} with the
-      default configuration.
-    * {{{http://checkstyle.sourceforge.net/config_annotation.html#MissingOverride}MissingOverride}} with the default
-      configuration.
-    * {{{http://checkstyle.sourceforge.net/config_annotation.html#PackageAnnotation}PackageAnnotation}} with the
-      default configuration.
-    * {{{http://checkstyle.sourceforge.net/config_annotation.html#SuppressWarnings}SuppressWArnings}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_annotation.html#AnnotationUseStyle}AnnotationUseStyle}}
+
+    * {{{http://checkstyle.sourceforge.net/config_annotation.html#MissingDeprecated}MissingDeprectated}}
+
+    * {{{http://checkstyle.sourceforge.net/config_annotation.html#MissingOverride}MissingOverride}}
+
+    * {{{http://checkstyle.sourceforge.net/config_annotation.html#PackageAnnotation}PackageAnnotation}}
+
+    * {{{http://checkstyle.sourceforge.net/config_annotation.html#SuppressWarnings}SuppressWArnings}}
 
 ** {{{http://checkstyle.sourceforge.net/config_blocks.html}Blocks}}
 
     The following sub-modules are used:
 
     * {{{http://checkstyle.sourceforge.net/config_blocks.html#EmptyBlock}EmptyBlock}} with configuration to allow
-      commented empty blocks.
+      commented empty blocks
 
     * {{{http://checkstyle.sourceforge.net/config_blocks.html#LeftCurly}LeftCurly}} with configuration to allow 200
-      character line lengths.
+      character line lengths
 
-    * {{{http://checkstyle.sourceforge.net/config_blocks.html#NeedBraces}NeedBraces}} with the default configuraiton.
+    * {{{http://checkstyle.sourceforge.net/config_blocks.html#NeedBraces}NeedBraces}}
 
     * {{{http://checkstyle.sourceforge.net/config_blocks.html#RightCurly}RightCurly}} with the configuration to force
       right curly braces to be on a new line:
@@ -95,57 +94,46 @@ if (something) {
 }
 -------
 
-    * {{{http://checkstyle.sourceforge.net/config_blocks.html#AvoidNestedBlocks}AvoidNestedBlocks}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_blocks.html#AvoidNestedBlocks}AvoidNestedBlocks}}
 
 ** {{{http://checkstyle.sourceforge.net/config_design.html}Design}}
 
     The following sub-modules are used:
 
-    * {{{http://checkstyle.sourceforge.net/config_design.html#VisibilityModifier}VisibilityModifier}}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_design.html#VisibilityModifier}VisibilityModifier}}}
 
-    * {{{http://checkstyle.sourceforge.net/config_design.html#FinalClass}FinalClass}}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_design.html#FinalClass}FinalClass}}}
 
-    * {{{http://checkstyle.sourceforge.net/config_design.html#InterfaceIsType}InterfaceIsType}}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_design.html#InterfaceIsType}InterfaceIsType}}}
 
     * {{{http://checkstyle.sourceforge.net/config_design.html#HideUtilityClassConstructor}HideUtilityClassConstructor}}}
-      with the default configuration.
 
-    * {{{http://checkstyle.sourceforge.net/config_design.html#DesignForExtension}DesignForExtension}}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_design.html#DesignForExtension}DesignForExtension}}}
 
-    * {{{http://checkstyle.sourceforge.net/config_design.html#MutableException}MutableException}}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_design.html#MutableException}MutableException}}}
 
-    * {{{http://checkstyle.sourceforge.net/config_design.html#ThrowsCount}ThrowsCount}}} is reconfigured to allow 2
-      checked exceptions to be declared.
+    * {{{http://checkstyle.sourceforge.net/config_design.html#ThrowsCount}ThrowsCount}}} is configured to allow two
+      checked exceptions to be declared
 
-    * {{{http://checkstyle.sourceforge.net/config_design.html#InnerTypeLast}InnerTypeLast}}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_design.html#InnerTypeLast}InnerTypeLast}}}
 
 ** {{{http://checkstyle.sourceforge.net/config_coding.html}Coding}}
 
     The following sub-modules are used:
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#CovariantEquals}CovariantEquals}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#CovariantEquals}CovariantEquals}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#EmptyStatement}EmptyStatement}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#EmptyStatement}EmptyStatement}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#EqualsAvoidNull}EqualsAvoidNull}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#EqualsAvoidNull}EqualsAvoidNull}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#EqualsHashCode}EqualsHashCode}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#EqualsHashCode}EqualsHashCode}}
 
     * {{{http://checkstyle.sourceforge.net/config_coding.html#FinalLocalVariable}FinalLocalVariable}} with
-      configuration to explicitly check for final parameters.
+      configuration to explicitly check for final parameters
 
     * {{{http://checkstyle.sourceforge.net/config_coding.html#HiddenField}HiddenField}} with configuration to allow
-      constructors and setters to hide the fields they set.
+      constructors and setters to hide the fields they set
 
     * {{{http://checkstyle.sourceforge.net/config_coding.html#IllegalInstantiation}IllegalInstantiation}} with
       configuration to exclude explicit creation of:
@@ -154,99 +142,78 @@ if (something) {
 
         * java.lang.String
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#InnerAssignment}InnerAssignment}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#InnerAssignment}InnerAssignment}}
 
     * {{{http://checkstyle.sourceforge.net/config_coding.html#MagicNumber}MagicNumber}} with configuration to ignore
-      values in annotations and hashcode calculations.
+      values in annotations and hashcode calculations
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#MissingSwitchDefault}MissingSwitchDefault}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#MissingSwitchDefault}MissingSwitchDefault}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#ModifiedControlVariable}ModifiedControlVariable}} with
-      the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#ModifiedControlVariable}ModifiedControlVariable}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#RedundantThrows}RedundantThrows}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#RedundantThrows}RedundantThrows}}
 
     * {{{http://checkstyle.sourceforge.net/config_coding.html#SimplifyBooleanExpression}SimplifyBooleanExpression}}
-      with the default configuration.
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#SimplifyBooleanReturn}SimplifyBooleanReturn}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#SimplifyBooleanReturn}SimplifyBooleanReturn}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#StringLiteralEquality}StringLiteralEquality}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#StringLiteralEquality}StringLiteralEquality}}
 
     * {{{http://checkstyle.sourceforge.net/config_coding.html#NestedForDepth}NestedForDepth}} with configuration to
-      allow two nested for loops.
+      allow two nested for loops
 
     * {{{http://checkstyle.sourceforge.net/config_coding.html#NestedIfDepth}NestedIfDepth}} with configuration to allow
-      two nested if statements.
+      two nested if statements
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#NestedTryDepth}NestedTryDepth}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#NestedTryDepth}NestedTryDepth}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#NoFinalizer}NoFinalizer}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#NoFinalizer}NoFinalizer}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#SuperClone}SuperClone}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#SuperClone}SuperClone}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#IllegalCatch}IllegalCatch}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#IllegalCatch}IllegalCatch}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#IllegalThrows}IllegalThrows}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#IllegalThrows}IllegalThrows}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#PackageDeclaration}PackageDeclaration}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#PackageDeclaration}PackageDeclaration}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#IllegalType}IllegalType}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#IllegalType}IllegalType}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#DeclarationOrder}DeclarationOrder}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#DeclarationOrder}DeclarationOrder}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#ParameterAssignment}ParameterAssignment}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#ParameterAssignment}ParameterAssignment}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#ExplicitInitialization}ExplicitInitialization}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#ExplicitInitialization}ExplicitInitialization}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#DefaultComesLast}DefaultComesLast}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#DefaultComesLast}DefaultComesLast}}
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#FallThrough}FallThrough}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#FallThrough}FallThrough}}
 
     * {{{http://checkstyle.sourceforge.net/config_coding.html#MultipleStringLiterals}MultipleStringLiterals}} with
-      configuration to allow two uses of the same string literal.
+      configuration to allow two uses of the same string literal
 
     * {{{http://checkstyle.sourceforge.net/config_coding.html#MultipleVariableDeclarations}MultipleVariableDeclarations}}
-      with the default configuration.
 
-    * {{{http://checkstyle.sourceforge.net/config_coding.html#OneStatementPerLine}OneStatementPerLine}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_coding.html#OneStatementPerLine}OneStatementPerLine}}
 
 ** {{{http://checkstyle.sourceforge.net/config_duplicates.html}Duplicates}}
 
     The following sub-modules are used:
 
     * {{{http://checkstyle.sourceforge.net/config_duplicates.html#StrictDuplicateCode}StrictDuplicateCode}} with
-      configuration to allow 20 lines of text (enough for the standard LGPL license header) before complaining.
+      configuration to allow 20 lines of text (enough for the standard LGPL license header) before complaining
 
 ** {{{http://checkstyle.sourceforge.net/config_imports.html}Imports}}
 
     The following sub-modules are used:
 
-    * {{{http://checkstyle.sourceforge.net/config_imports.html#AvoidStarImport}AvoidStarImport}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_imports.html#AvoidStarImport}AvoidStarImport}}
 
-    * {{{http://checkstyle.sourceforge.net/config_imports.html#IllegalImport}IllegalImport}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_imports.html#IllegalImport}IllegalImport}}
 
-    * {{{http://checkstyle.sourceforge.net/config_imports.html#RedundantImport}RedundantImport}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_imports.html#RedundantImport}RedundantImport}}
 
-    * {{{http://checkstyle.sourceforge.net/config_imports.html#UnusedImports}UnusedImports}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_imports.html#UnusedImports}UnusedImports}}
 
     * {{{http://checkstyle.sourceforge.net/config_imports.html#ImportOrder}ImportOrder}} with configuration that forces
       the import order:
@@ -263,178 +230,139 @@ if (something) {
 
     The following sub-modules are used:
 
-    * {{{http://checkstyle.sourceforge.net/config_javadoc.html#JavadocPackage}JavadocPackage}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_javadoc.html#JavadocPackage}JavadocPackage}}
 
-    * {{{http://checkstyle.sourceforge.net/config_javadoc.html#JavadocType}JavadocType}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_javadoc.html#JavadocType}JavadocType}}
 
-    * {{{http://checkstyle.sourceforge.net/config_javadoc.html#JavadocMethod}JavadocMethod}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_javadoc.html#JavadocMethod}JavadocMethod}}
 
-    * {{{http://checkstyle.sourceforge.net/config_javadoc.html#JavadocVariable}JavadocVariable}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_javadoc.html#JavadocVariable}JavadocVariable}}
 
-    * {{{http://checkstyle.sourceforge.net/config_javadoc.html#JavadocStyle}JavadocStyle}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_javadoc.html#JavadocStyle}JavadocStyle}}
 
 ** {{{http://checkstyle.sourceforge.net/config_metrics.html}Metrics}}
 
     The following sub-modules are used:
 
     * {{{http://checkstyle.sourceforge.net/config_metrics.html#BooleanExpressionComplexity}BooleanExpressionComplexity}}
-      with the default configuration.
 
     * {{{http://checkstyle.sourceforge.net/config_metrics.html#ClassDataAbstractionCoupling}ClassDataAbstractionCoupling}}
-      with the default configuration.
 
-    * {{{http://checkstyle.sourceforge.net/config_metrics.html#ClassFanOutComplexity}ClassFanOutComplexity}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_metrics.html#ClassFanOutComplexity}ClassFanOutComplexity}}
 
-    * {{{http://checkstyle.sourceforge.net/config_metrics.html#CyclomaticComplexity}CyclomaticComplexity}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_metrics.html#CyclomaticComplexity}CyclomaticComplexity}}
 
-    * {{{http://checkstyle.sourceforge.net/config_metrics.html#NPathComplexity}NPathComplexity}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_metrics.html#NPathComplexity}NPathComplexity}}
 
-    * {{{http://checkstyle.sourceforge.net/config_metrics.html#JavaNCSS}JavaNCSS}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_metrics.html#JavaNCSS}JavaNCSS}}
 
 ** {{{http://checkstyle.sourceforge.net/config_misc.html}Miscellaneous}}
 
     The following sub-modules are used:
 
-    * {{{http://checkstyle.sourceforge.net/config_misc.html#NewlineAtEndOfFile}NewlineAtEndOfFile}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_misc.html#NewlineAtEndOfFile}NewlineAtEndOfFile}}
 
-    * {{{http://checkstyle.sourceforge.net/config_misc.html#Translation}Translation}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_misc.html#Translation}Translation}}
 
-    * {{{http://checkstyle.sourceforge.net/config_misc.html#UncommentedMain}UncommentedMain}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_misc.html#UncommentedMain}UncommentedMain}}
 
-    * {{{http://checkstyle.sourceforge.net/config_misc.html#UpperEll}UpperEll}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_misc.html#UpperEll}UpperEll}}
 
-    * {{{http://checkstyle.sourceforge.net/config_misc.html#ArrayTypeStyle}ArrayTypeStyle}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_misc.html#ArrayTypeStyle}ArrayTypeStyle}}
 
     * {{{http://checkstyle.sourceforge.net/config_misc.html#FinalParameters}FinalParameters}} with configuration to
-      require final parameters on all methods, constructors and catch blocks.
+      require final parameters on all methods, constructors and catch blocks
 
-    * {{{http://checkstyle.sourceforge.net/config_misc.html#Indentation}Indentation}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_misc.html#Indentation}Indentation}}
 
-    * {{{http://checkstyle.sourceforge.net/config_misc.html#TrailingComment}TrailingComment}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_misc.html#TrailingComment}TrailingComment}}
 
-    * {{{http://checkstyle.sourceforge.net/config_misc.html#OuterTypeFilename}OuterTypeFilename}} with the default
-      configuration.
+
+    * {{{http://checkstyle.sourceforge.net/config_misc.html#OuterTypeFilename}OuterTypeFilename}}
+
 
 ** {{{http://checkstyle.sourceforge.net/config_modifier.html}Modifiers}}
 
     The following sub-modules are used:
 
-    * {{{http://checkstyle.sourceforge.net/config_modifier.html#ModifierOrder}ModifierOrder}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_modifier.html#ModifierOrder}ModifierOrder}}
 
-    * {{{http://checkstyle.sourceforge.net/config_modifier.html#RedundantModifier}RedundantModifier}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_modifier.html#RedundantModifier}RedundantModifier}}
 
 ** {{{http://checkstyle.sourceforge.net/config_naming.html}Naming}}
 
     The following sub-modules are used:
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#AbstractClassName}AbstractClassName}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#AbstractClassName}AbstractClassName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#ClassTypeParameterName}ClassTypeParameterName}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#ClassTypeParameterName}ClassTypeParameterName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#ConstantName}ConstantName}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#ConstantName}ConstantName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#LocalFinalVariableName}LocalFinalVariableName}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#LocalFinalVariableName}LocalFinalVariableName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#LocalVariableName}LocalVariableName}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#LocalVariableName}LocalVariableName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#MemberName}MemberName}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#MemberName}MemberName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#MethodName}MethodName}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#MethodName}MethodName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#MethodTypeParameterName}MethodTypeParameterName}} with
-      the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#MethodTypeParameterName}MethodTypeParameterName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#PackageName}PackageName}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#PackageName}PackageName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#ParameterName}ParameterName}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#ParameterName}ParameterName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#StaticVariableName}StaticVariableName}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#StaticVariableName}StaticVariableName}}
 
-    * {{{http://checkstyle.sourceforge.net/config_naming.html#TypeName}TypeName}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_naming.html#TypeName}TypeName}}
 
 ** {{{http://checkstyle.sourceforge.net/config_sizes.html}Sizes}}
 
     The following sub-modules are used:
 
-    * {{{http://checkstyle.sourceforge.net/config_sizes.html#FileLength}FileLength}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_sizes.html#FileLength}FileLength}}
 
-    * {{{http://checkstyle.sourceforge.net/config_sizes.html#ExecutableStatementCount}ExecutableStatementCount}} with
-      the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_sizes.html#ExecutableStatementCount}ExecutableStatementCount}}
 
     * {{{http://checkstyle.sourceforge.net/config_sizes.html#LineLength}LineLength}} with configuration to allow a
-      maximum line length of 200 characters.
+      maximum line length of 200 characters
 
-    * {{{http://checkstyle.sourceforge.net/config_sizes.html#MethodLength}MethodLength}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_sizes.html#MethodLength}MethodLength}}
 
-    * {{{http://checkstyle.sourceforge.net/config_sizes.html#AvoidInnerLength}AvoidInnerLength}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_sizes.html#AvoidInnerLength}AvoidInnerLength}}
 
-    * {{{http://checkstyle.sourceforge.net/config_sizes.html#xAvoidInnerLength}AvoidInnerLength}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_sizes.html#xAvoidInnerLength}AvoidInnerLength}}
 
-    * {{{http://checkstyle.sourceforge.net/config_sizes.html#OuterTypeNumber}OuterTypeNumber}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_sizes.html#OuterTypeNumber}OuterTypeNumber}}
 
-    * {{{http://checkstyle.sourceforge.net/config_sizes.html#MethodCount}MethodCount}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_sizes.html#MethodCount}MethodCount}}
 
 ** {{{http://checkstyle.sourceforge.net/config_whitespace.html}Whitespace}}
 
     The following sub-modules are used:
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#FileTabCharacter}FileTabCharacter}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#FileTabCharacter}FileTabCharacter}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#GenericWhitespace}GenericWhitespace}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#GenericWhitespace}GenericWhitespace}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#EmptyForInitializerPad}EmptyForInitializerPad}} with
-      the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#EmptyForInitializerPad}EmptyForInitializerPad}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#EmptyForIteratorPad}EmptyForIteratorPad}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#EmptyForIteratorPad}EmptyForIteratorPad}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#MethodParamPad}MethodParamPad}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#MethodParamPad}MethodParamPad}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#NoWhitespaceAfter}NoWhitespaceAfter}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#NoWhitespaceAfter}NoWhitespaceAfter}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#NoWhitespaceBefore}NoWhitespaceBefore}} with the
-      default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#NoWhitespaceBefore}NoWhitespaceBefore}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#OperatorWrap}OperatorWrap}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#OperatorWrap}OperatorWrap}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#ParenPad}ParenPad}} with the default configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#ParenPad}ParenPad}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#TypecastParenPad}TypecastParenPad}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#TypecastParenPad}TypecastParenPad}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#WhitespaceAfter}WhitespaceAfter}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#WhitespaceAfter}WhitespaceAfter}}
 
-    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#WhitespaceAround}WhitespaceAround}} with the default
-      configuration.
+    * {{{http://checkstyle.sourceforge.net/config_whitespace.html#WhitespaceAround}WhitespaceAround}}
 
